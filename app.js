@@ -69,7 +69,7 @@ const searchResults = document.getElementById('search-results');
 let locationsData = [];
 
 // Cargar el JSON estático una sola vez
-fetch('/search-index.json')
+fetch('conomap/search-index.json')
     .then(response => response.json())
     .then(data => {
         locationsData = data;
