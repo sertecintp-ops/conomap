@@ -11,7 +11,7 @@ const map = new maplibregl.Map({
             'lotes-tacna': {
                 type: 'vector',
                 // Llama a tu carpeta de teselas generada offline
-                tiles: [window.location.origin + '/tiles/{z}/{x}/{y}.pbf'],
+                tiles: [window.location.origin + 'conomap/tiles/{z}/{x}/{y}.pbf'],
                 minzoom: 12,
                 maxzoom: 19
             }
